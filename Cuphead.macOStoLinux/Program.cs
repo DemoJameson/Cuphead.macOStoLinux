@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
-using Celeste.Mod.Helpers;
 
 namespace Cuphead.macOStoLinux;
 
@@ -29,7 +28,6 @@ public class Program {
         Console.WriteLine("Cuphead.macOStoLinux");
 
         if (!SetupPaths()) {
-            // setting up paths failed (Celeste.exe was not found).
             return 1;
         }
 

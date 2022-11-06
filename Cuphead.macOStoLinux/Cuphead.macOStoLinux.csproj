@@ -13,9 +13,4 @@
     <ItemGroup>
       <ProjectReference Include="..\Assembly-CSharp.fix.mm\Assembly-CSharp.fix.mm.csproj" />
     </ItemGroup>
-
-    <Target Condition="'$(Configuration)' == 'Release'" Name="PostBuild" AfterTargets="PostBuildEvent">
-        <Exec Command="xcopy $(ProjectDir)Linux_Build_Libs $(TargetDir)Linux_Build_Libs /E/H/C/I/Y" />
-<!--        <Exec Command="powershell -Command Compress-Archive -Path '$(SolutionDir)out\Windows\*' -DestinationPath '$(SolutionDir)out\KEEK.Trainer_Windows_v$(Version).zip' -Force" />-->
-    </Target>
 </Project>

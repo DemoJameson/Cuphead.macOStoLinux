@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace AssemblyCSharp.fix.mm;
 
+[MonoModIfFlag(MonoModRules.FlagDLC)]
 [MonoModPatch("global::DLCManager")]
 public class DLCManager {
     [MonoModReplace]
