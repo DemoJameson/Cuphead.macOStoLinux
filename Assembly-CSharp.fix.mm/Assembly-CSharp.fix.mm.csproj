@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net35</TargetFramework>
+        <LangVersion>default</LangVersion>
+        <RootNamespace>AssemblyCSharp.fix.mm</RootNamespace>
+    </PropertyGroup>
+
+    <ItemDefinitionGroup>
+        <Reference>
+            <Private>False</Private>
+        </Reference>
+    </ItemDefinitionGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+        <PackageReference Include="MonoMod" Version="22.5.1.1" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Reference Include="UnityEngine">
+        <HintPath>Libs\UnityEngine.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

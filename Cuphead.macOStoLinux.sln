@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp.fix.mm", "Assembly-CSharp.fix.mm\Assembly-CSharp.fix.mm.csproj", "{518E075D-CBB7-4663-9F13-0BA75FC62A60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cuphead.macOStoLinux", "Cuphead.macOStoLinux\Cuphead.macOStoLinux.csproj", "{A3BCE298-DEE0-4E8E-85CC-670B7C7EAC40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{518E075D-CBB7-4663-9F13-0BA75FC62A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518E075D-CBB7-4663-9F13-0BA75FC62A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518E075D-CBB7-4663-9F13-0BA75FC62A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518E075D-CBB7-4663-9F13-0BA75FC62A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BCE298-DEE0-4E8E-85CC-670B7C7EAC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BCE298-DEE0-4E8E-85CC-670B7C7EAC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BCE298-DEE0-4E8E-85CC-670B7C7EAC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BCE298-DEE0-4E8E-85CC-670B7C7EAC40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
